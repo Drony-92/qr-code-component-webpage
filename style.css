@@ -10,8 +10,8 @@ html {
 
 body {
     background-color: hsl(212, 45%, 89%);
-    font-family: "Outfit";
-    font-size: 15px;
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
     margin: 0px;
 }
 
@@ -20,14 +20,11 @@ body {
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
     padding: 10px;
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    translate: -50% -50%;
+    margin: 1.5em auto;
 
 }
 
-#qr-image {
+.qr-image {
     width: 300px;
     height: 300px;
     border-radius: 10px;
