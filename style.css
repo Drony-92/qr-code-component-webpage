@@ -8,6 +8,13 @@ html {
     box-sizing: inherit;
 }
 
+html, body {
+height: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
     background-color: hsl(212, 45%, 89%);
     font-family: "Outfit", Arial, Helvetica, sans-serif;
